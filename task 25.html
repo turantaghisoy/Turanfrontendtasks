@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Position</title>
+	<style>
+		.free{
+			width: 350px;
+			height: 350px;
+			background-color: blueviolet;
+		}
+		.free1{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			position: relative;
+			top:400px;
+			left: 200px;
+		}
+		.container{
+			width: 80%;
+			height: 1800px;
+			background-color: lightblue;
+			position: relative;
+			left: 200px;
+			top: 100px;
+		}
+		.item{
+			width: 150px;
+			height: 150px;
+			background-color: yellow;
+			position: absolute;
+			left: 400px;
+			top: 50px;
+		}
+		.item2{
+			width: 150px;
+			height: 150px;
+			background-color: yellowgreen;
+			position: fixed;
+			bottom: 50px;
+			right: 50px;
+		}
+		.item3{
+			width: 150px;
+			height: 150px;
+			background-color: orange;
+			position: sticky;
+			left: 500px;
+			top: 90px;
+		}
+	</style>
+
+</head>
+<body>
+<div class="free1">9</div>
+<div class="free">8</div>
+<div class="free">7</div>
+
+
+
+<div class="container">
+	<div class="item">1</div>
+    <div class="item3">3</div>
+</div>
+ <div class="item2">2</div>
+</body>
+</html>
